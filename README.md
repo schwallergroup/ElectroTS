@@ -6,6 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![ChemRxiv](https://img.shields.io/badge/ChemRxiv-orange)](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15002581)
 
 **Long-horizon forecasting of electrolysis stability from early-stage operating data through temporal learning**
 
@@ -123,12 +124,16 @@ If you find this work useful, please cite:
 
 ```bibtex
 @article{electro_ts_2026,
-  title   = {Long-horizon forecasting of electrolysis stability from early-stage
-             operating data through temporal learning},
-  author  = {},
-  journal = {},
-  year    = {2026},
-  note    = {Preprint}
+author = {Qiucheng Xu  and Junwu Chen  and Alexander Muroyama  and Xiangli Yi  and Ariana Serban  and Philippe Schwaller  and Xile Hu },
+title = {Long-horizon forecasting of electrolysis stability from early-stage operating data through temporal learning},
+journal = {ChemRxiv},
+volume = {2026},
+number = {0430},
+pages = {},
+year = {2026},
+doi = {10.26434/chemrxiv.15002581/v1},
+URL = {https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15002581/v1},
+note={Preprint}
 }
 ```
 
