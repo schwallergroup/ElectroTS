@@ -39,7 +39,7 @@ class ElectroDataset(Dataset):
     def __read_data__(self):
         data_dict = {}
         _path = os.path.join(self.root_path, 'all')
-        txt_list = [f for f in os.listdir(_path) if f.endswith('.txt')]
+        txt_list = sorted(f for f in os.listdir(_path) if f.endswith('.txt'))
         arr_list = [
             np.loadtxt(os.path.join(_path, _txt))
             for _txt in txt_list
